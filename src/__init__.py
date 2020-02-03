@@ -11,8 +11,8 @@ from services.MergingService import MergingService
 # TextExtractor.extract_text("resource/NSK - cwiczenia nr 1.pdf")
 
 # DOCUMENTS MERGING
-print("Wprowadz nazwe pierwszego pliku :")
+print("Wprowadz nazwe pierwszego pliku na Pulpicie :")
 first_file = input()
-print("Wprowadz nazwe drugiego pliku :")
+print("Wprowadz nazwe drugiego pliku na Pulpicie :")
 second_file = input()
 MergingService.merge_service("mergedFile", [first_file, second_file])
